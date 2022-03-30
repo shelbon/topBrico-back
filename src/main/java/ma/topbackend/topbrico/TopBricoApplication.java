@@ -12,7 +12,6 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
-import java.util.List;
 
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })

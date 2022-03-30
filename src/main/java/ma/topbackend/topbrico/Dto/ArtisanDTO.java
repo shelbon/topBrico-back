@@ -16,7 +16,7 @@ public class ArtisanDTO {
     private String adressArtisan2;
     private String mdpArtisan;
     private String telArtisan;
-    private MultipartFile photo;
+/*    private MultipartFile photo;*/
     private Collection<ServiceArt> serviceArt;
     private Collection<Realisation> realisations;
     private String ville;
@@ -93,13 +93,13 @@ public class ArtisanDTO {
         this.telArtisan = telArtisan;
     }
 
-    public MultipartFile getPhoto() {
+/*    public MultipartFile getPhoto() {
         return photo;
     }
 
     public void setPhoto(MultipartFile photo) {
         this.photo = photo;
-    }
+    }*/
 
     public Collection<ServiceArt> getServiceArt() {
         return serviceArt;
